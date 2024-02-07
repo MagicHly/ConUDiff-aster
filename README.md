@@ -35,7 +35,7 @@ The model will be saved in the *results/weights/weight* folder.
 For sampling an ensemble of 1 segmentation masks with the ConUDiff approach, run:
 
 ```
-/home/dluser/anaconda3/envs/zhang/bin/python scripts/segmentation_sample.py  --data_dir ./data_path  --model_path ./results/weights/xxx.pt --num_ensemble=1 $MODEL_FLAGS $DIFFUSION_FLAGS
+python scripts/segmentation_sample.py  --data_dir ./data_path  --model_path ./results/weights/xxx.pt --num_ensemble=1 $MODEL_FLAGS $DIFFUSION_FLAGS
 ```
 
 
